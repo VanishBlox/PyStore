@@ -27,7 +27,7 @@ class Store():
                 }
                 self.Cache["Store"] = dict()
         else:
-            return OpenStores[self.FILE_NAME]
+            raise Exception("Store with the same name is already open.") 
     def saveStore(self):
         if self.IsOpen:
             self.Cache["Meta"]["LastTimeSaved"] = time.time()
