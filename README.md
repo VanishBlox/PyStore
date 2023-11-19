@@ -1,5 +1,5 @@
 # PyStore
 A very lightweight and stable information storing system
 
-## Requirments 
+## Requirements 
 You (currently) need the JSON module
